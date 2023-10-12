@@ -13,6 +13,7 @@ namespace VideoAudioTransfer
             textBox.BackColor = System.Drawing.Color.White;
             textBox.ForeColor = System.Drawing.Color.DarkGray;
             textBox.TabStop = false;
+            textBox.BorderStyle = BorderStyle.FixedSingle;
 
             return textBox;
         }
@@ -32,6 +33,8 @@ namespace VideoAudioTransfer
             picBox.Size = new System.Drawing.Size(sizew, sizeh);
             picBox.Location = new System.Drawing.Point(posx, posy);
             picBox.BackColor = System.Drawing.Color.White;
+            picBox.BorderStyle = BorderStyle.FixedSingle;
+            picBox.AllowDrop = true;
             return picBox;
         }
     }

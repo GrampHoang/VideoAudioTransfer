@@ -9,6 +9,7 @@
     <CosturaUnmanaged32Assemblies>ffmpeg.exe</CosturaUnmanaged32Assemblies>
     <CosturaUnmanaged64Assemblies>ffmpeg.exe</CosturaUnmanaged64Assemblies>
     <RootNamespace>VideoAudioTransfer</RootNamespace>
+    <Icon>Icon.ico</Icon>
   </PropertyGroup>
 
   <ItemGroup>

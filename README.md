@@ -8,11 +8,11 @@ Currently, the application offers the following functionality:
 
 - **Video-to-Video Audio Transfer:** Transfer audio from one video to another.
 
+- **Drag and Drop Support:** Allowing users to simply drag and drop files into the application. You can also clicking on the white box and choose a video file manually.
+
+- The output will be export in the same folder as the exe, using the filename of the video that take audio, IT WILL OVERWRITE IF THERE IS A VIDEO WITH A SAME NAME so make sure to not put the inputs in the same folder as the exe.
+
 ## Future Plans
-
-We have exciting plans for future development, including:
-
-- **Drag and Drop Support:** Enhance user experience by allowing users to simply drag and drop files into the application.
 
 - **Audio-to-Video Transfer:** Expand the application's capabilities to support transferring audio into video files.
 
@@ -35,3 +35,5 @@ If you want to work on the codebase:
 
    ```bash
    git clone https://github.com/GrampHoang/VideoAudioTransfer.git
+
+   <!-- dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true -c Release   -->
